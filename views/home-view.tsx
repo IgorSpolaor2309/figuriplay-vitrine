@@ -24,7 +24,7 @@ export function HomeView() {
               Loja de figurinhas
             </p>
             <h1 className="text-[2.6rem] leading-[1.02] font-extrabold tracking-tight text-balance sm:text-6xl">
-              Complete o álbum <span className="relative whitespace-nowrap text-primary-ink">sem perder a conta.</span>
+              Complete o álbum <span className="relative text-primary-ink sm:whitespace-nowrap">sem perder a conta.</span>
             </h1>
             <p className="max-w-md text-lg text-muted-foreground">
               Avulsas pelo número, pacotes e álbuns. Monte o pedido aqui e a loja recebe tudo organizado.
