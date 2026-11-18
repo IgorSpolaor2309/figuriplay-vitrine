@@ -32,6 +32,14 @@ npm run build:single # página única em dist-single/figuriplay.html
   com as telas trocadas pelo `#hash` (`#produtos`, `#produto-<slug>`,
   `#faltantes`, `#pedido`). É o formato usado para publicar a prévia de revisão.
 
+## Publicar na Vercel
+
+1. Na Vercel: **Add New → Project → Import** este repositório do GitHub.
+2. Não precisa mudar nada: `vercel.json` já define o build (`npm run build`) e a
+   pasta publicada (`out`). Não há variáveis de ambiente.
+3. Cada push na `main` gera um novo deploy. A prévia vai com `noindex` para não
+   aparecer em buscadores. Não conecte domínio do cliente nesta etapa.
+
 ## Onde mexer
 
 | O quê | Arquivo |
