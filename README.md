@@ -35,8 +35,8 @@ npm run build:single # página única em dist-single/figuriplay.html
 ## Publicar na Vercel
 
 1. Na Vercel: **Add New → Project → Import** este repositório do GitHub.
-2. Não precisa mudar nada: `vercel.json` já define o build (`npm run build`) e a
-   pasta publicada (`out`). Não há variáveis de ambiente.
+2. Não precisa mudar nada: a Vercel detecta o Next.js e o `output: "export"`
+   sozinha. Não altere o Output Directory nem defina variáveis de ambiente.
 3. Cada push na `main` gera um novo deploy. A prévia vai com `noindex` para não
    aparecer em buscadores. Não conecte domínio do cliente nesta etapa.
 
